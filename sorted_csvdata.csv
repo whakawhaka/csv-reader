@@ -1,0 +1,2339 @@
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401099,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382593,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.239"",
+ ""IpPort"": ""49786"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382593
+	Logon GUID:		11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.239
+	Source Port:		49786
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401098,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382471,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382471
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401097,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6324"",
+ ""TargetUserName"": ""LACRARU-A1$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382508,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""5C2887EC-11C1-766F-50D7-CF57FFFC806C"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.168.70.24"",
+ ""IpPort"": ""49908"",
+ ""ImpersonationLevel"": ""%%1840""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6324
+	Account Name:		LACRARU-A1$
+	Account Domain:		NETELAN
+	Logon ID:		14382508
+	Logon GUID:		5C2887EC-11C1-766F-50D7-CF57FFFC806C
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.70.24
+	Source Port:		49908
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4662,944401096,,,"{
+ ""SubjectUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""SubjectUserName"": ""BAILLARGEON-P$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 14382471,
+ ""ObjectServer"": ""DS"",
+ ""ObjectType"": ""%{bf967a86-0de6-11d0-a285-00aa003049e2}"",
+ ""ObjectName"": ""%{c7ec4787-054f-4406-b515-8ba6f634eeab}"",
+ ""OperationType"": ""Object Access"",
+ ""HandleId"": 0,
+ ""AccessList"": ""-"",
+ ""AccessMask"": 0,
+ ""Properties"": ""---\r\n\t{bf967a86-0de6-11d0-a285-00aa003049e2}\r\n%%7688\r\n\t\t\t{6617e4ac-a2f1-43ab-b60c-11fbd1facf05}\r\n\t\t\t{b3f93023-9239-4f7c-b99c-6745d87adbc2}\r\n\t\t\t{b8dfa744-31dc-4ef1-ac7c-84baf7ef9da7}\r\n\t\t\t{b7ff5a38-0818-42b0-8110-d3d154c97f24}\r\n\t\t{91e647de-d96f-4b70-9557-d63ff4f3ccd8}\r\n"",
+ ""AdditionalInfo"": ""-"",
+ ""AdditionalInfo2"": """"
+}",,"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382471
+
+Object:
+	Object Server:		DS
+	Object Type:		%{bf967a86-0de6-11d0-a285-00aa003049e2}
+	Object Name:		%{c7ec4787-054f-4406-b515-8ba6f634eeab}
+	Handle ID:		0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		-
+	Access Mask:		0
+	Properties:		---
+	{bf967a86-0de6-11d0-a285-00aa003049e2}
+%%7688
+			{6617e4ac-a2f1-43ab-b60c-11fbd1facf05}
+			{b3f93023-9239-4f7c-b99c-6745d87adbc2}
+			{b8dfa744-31dc-4ef1-ac7c-84baf7ef9da7}
+			{b7ff5a38-0818-42b0-8110-d3d154c97f24}
+		{91e647de-d96f-4b70-9557-d63ff4f3ccd8}
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401095,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382471,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.239"",
+ ""IpPort"": ""49785"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382471
+	Logon GUID:		11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.239
+	Source Port:		49785
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401094,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382003,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382003
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401093,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382389,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""8A5AD3A8-9337-27EF-9BA7-ACE155E276F0"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.239"",
+ ""IpPort"": ""49780"",
+ ""ImpersonationLevel"": ""%%1840""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382389
+	Logon GUID:		8A5AD3A8-9337-27EF-9BA7-ACE155E276F0
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.239
+	Source Port:		49780
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401092,,,"{
+ ""TargetUserName"": ""BAILLARGEON-P$@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""krbtgt"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-502"",
+ ""TicketOptions"": 1619066896,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.239"",
+ ""IpPort"": ""49782"",
+ ""Status"": 0,
+ ""LogonGuid"": ""2DFC17B1-F6F5-41BF-FC66-A1D0760242E7"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		BAILLARGEON-P$@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		2DFC17B1-F6F5-41BF-FC66-A1D0760242E7
+
+Service Information:
+	Service Name:		krbtgt
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-502
+
+Network Information:
+	Client Address:		::ffff:192.100.100.239
+	Client Port:		49782
+
+Additional Information:
+	Ticket Options:		1619066896
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:30Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401091,,,"{
+ ""TargetUserName"": ""BAILLARGEON-P$@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""DEMETER$"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-5865"",
+ ""TicketOptions"": 1082130432,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.239"",
+ ""IpPort"": ""49781"",
+ ""Status"": 0,
+ ""LogonGuid"": ""2DFC17B1-F6F5-41BF-FC66-A1D0760242E7"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		BAILLARGEON-P$@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		2DFC17B1-F6F5-41BF-FC66-A1D0760242E7
+
+Service Information:
+	Service Name:		DEMETER$
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-5865
+
+Network Information:
+	Client Address:		::ffff:192.100.100.239
+	Client Port:		49781
+
+Additional Information:
+	Ticket Options:		1082130432
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:29Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401087,,,"{
+ ""TargetUserName"": ""BAILLARGEON-P$@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""BAILLARGEON-P$"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TicketOptions"": 1082195968,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.239"",
+ ""IpPort"": ""49777"",
+ ""Status"": 0,
+ ""LogonGuid"": ""10F0D06B-0F6C-B572-D501-8CB2587F60E6"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		BAILLARGEON-P$@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		10F0D06B-0F6C-B572-D501-8CB2587F60E6
+
+Service Information:
+	Service Name:		BAILLARGEON-P$
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-4744
+
+Network Information:
+	Client Address:		::ffff:192.100.100.239
+	Client Port:		49777
+
+Additional Information:
+	Ticket Options:		1082195968
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:29Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401085,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4723"",
+ ""TargetUserName"": ""PERREAULT-Y$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14381946,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""DDB8A172-9A41-13F1-57DC-4B134CE1F56F"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.117"",
+ ""IpPort"": ""49929"",
+ ""ImpersonationLevel"": ""%%1840""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4723
+	Account Name:		PERREAULT-Y$
+	Account Domain:		NETELAN
+	Logon ID:		14381946
+	Logon GUID:		DDB8A172-9A41-13F1-57DC-4B134CE1F56F
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.117
+	Source Port:		49929
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:29Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401086,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14381981,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.239"",
+ ""IpPort"": ""49776"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14381981
+	Logon GUID:		11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.239
+	Source Port:		49776
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:29Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401088,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4744"",
+ ""TargetUserName"": ""BAILLARGEON-P$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382003,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.239"",
+ ""IpPort"": ""49778"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4744
+	Account Name:		BAILLARGEON-P$
+	Account Domain:		NETELAN
+	Logon ID:		14382003
+	Logon GUID:		11D24F4B-9CE5-5C11-AED3-0E23E1A31C2B
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.239
+	Source Port:		49778
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:29Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401089,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6324"",
+ ""TargetUserName"": ""LACRARU-A1$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14382025,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""39269A1A-E2C7-0ABC-785F-F7A17B3FF176"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.168.70.24"",
+ ""IpPort"": ""49905"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6324
+	Account Name:		LACRARU-A1$
+	Account Domain:		NETELAN
+	Logon ID:		14382025
+	Logon GUID:		39269A1A-E2C7-0ABC-785F-F7A17B3FF176
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.70.24
+	Source Port:		49905
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:29Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401090,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6076"",
+ ""TargetUserName"": ""WEIRCANDA3$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14142262,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6076
+	Account Name:		WEIRCANDA3$
+	Account Domain:		NETELAN
+	Logon ID:		14142262
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:27Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401084,,,"{
+ ""TargetUserName"": ""MCCAFFERTY-M1$@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""ELECTRA2$"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TicketOptions"": 1082195968,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.159"",
+ ""IpPort"": ""49892"",
+ ""Status"": 0,
+ ""LogonGuid"": ""C184B8C4-5DC4-321C-43A9-CFCB15D34E2D"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		MCCAFFERTY-M1$@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		C184B8C4-5DC4-321C-43A9-CFCB15D34E2D
+
+Service Information:
+	Service Name:		ELECTRA2$
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-6837
+
+Network Information:
+	Client Address:		::ffff:192.100.100.159
+	Client Port:		49892
+
+Additional Information:
+	Ticket Options:		1082195968
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:26Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401083,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6044"",
+ ""TargetUserName"": ""KHALIL-K1$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14380719,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""5859942B-978E-1083-F0F1-9F0B8E862F71"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.94"",
+ ""IpPort"": ""49889"",
+ ""ImpersonationLevel"": ""%%1840""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6044
+	Account Name:		KHALIL-K1$
+	Account Domain:		NETELAN
+	Logon ID:		14380719
+	Logon GUID:		5859942B-978E-1083-F0F1-9F0B8E862F71
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.94
+	Source Port:		49889
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:25Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401082,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6141"",
+ ""TargetUserName"": ""PROJECTVISIO201$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14365435,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6141
+	Account Name:		PROJECTVISIO201$
+	Account Domain:		NETELAN
+	Logon ID:		14365435
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:25Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401081,,,"{
+ ""TargetUserName"": ""PROJECTVISIO201$@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""ELECTRA2$"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TicketOptions"": 1082195968,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.202"",
+ ""IpPort"": ""49957"",
+ ""Status"": 0,
+ ""LogonGuid"": ""AE39EFFF-65B9-F50D-AF26-069272751ACB"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		PROJECTVISIO201$@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		AE39EFFF-65B9-F50D-AF26-069272751ACB
+
+Service Information:
+	Service Name:		ELECTRA2$
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-6837
+
+Network Information:
+	Client Address:		::ffff:192.100.100.202
+	Client Port:		49957
+
+Additional Information:
+	Ticket Options:		1082195968
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:25Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401080,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6141"",
+ ""TargetUserName"": ""PROJECTVISIO201$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14365435,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""435F82ED-D4DB-2717-D726-2BC789DC98A6"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.202"",
+ ""IpPort"": ""49954"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6141
+	Account Name:		PROJECTVISIO201$
+	Account Domain:		NETELAN
+	Logon ID:		14365435
+	Logon GUID:		435F82ED-D4DB-2717-D726-2BC789DC98A6
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.202
+	Source Port:		49954
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:24Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401076,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6108"",
+ ""TargetUserName"": ""CHRETIEN-J$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14364508,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6108
+	Account Name:		CHRETIEN-J$
+	Account Domain:		NETELAN
+	Logon ID:		14364508
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:24Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401079,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6082"",
+ ""TargetUserName"": ""SANCHEZ-M$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14364580,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6082
+	Account Name:		SANCHEZ-M$
+	Account Domain:		NETELAN
+	Logon ID:		14364580
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:24Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401078,,,"{
+ ""TargetUserName"": ""SANCHEZ-M$@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""ELECTRA2$"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TicketOptions"": 1082195968,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.122"",
+ ""IpPort"": ""49838"",
+ ""Status"": 0,
+ ""LogonGuid"": ""540167C2-6818-C49C-4341-C2EF9C327D71"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		SANCHEZ-M$@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		540167C2-6818-C49C-4341-C2EF9C327D71
+
+Service Information:
+	Service Name:		ELECTRA2$
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-6837
+
+Network Information:
+	Client Address:		::ffff:192.100.100.122
+	Client Port:		49838
+
+Additional Information:
+	Ticket Options:		1082195968
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:24Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401077,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6082"",
+ ""TargetUserName"": ""SANCHEZ-M$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14364580,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""995EE416-0C9E-D756-10AE-057EB8F3E980"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.122"",
+ ""IpPort"": ""49835"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6082
+	Account Name:		SANCHEZ-M$
+	Account Domain:		NETELAN
+	Logon ID:		14364580
+	Logon GUID:		995EE416-0C9E-D756-10AE-057EB8F3E980
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.122
+	Source Port:		49835
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:23Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401075,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6850"",
+ ""TargetUserName"": ""CINELLI-L$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14354642,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6850
+	Account Name:		CINELLI-L$
+	Account Domain:		NETELAN
+	Logon ID:		14354642
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:23Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401074,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6108"",
+ ""TargetUserName"": ""CHRETIEN-J$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14364508,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""27AFE24C-C981-1347-E58B-E584F1014515"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.210"",
+ ""IpPort"": ""56658"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6108
+	Account Name:		CHRETIEN-J$
+	Account Domain:		NETELAN
+	Logon ID:		14364508
+	Logon GUID:		27AFE24C-C981-1347-E58B-E584F1014515
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.210
+	Source Port:		56658
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:23Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401073,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-5836"",
+ ""TargetUserName"": ""MACHINE-SHOP$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14364429,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-5836
+	Account Name:		MACHINE-SHOP$
+	Account Domain:		NETELAN
+	Logon ID:		14364429
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:23Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401072,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-5836"",
+ ""TargetUserName"": ""MACHINE-SHOP$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14364429,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""1A213C82-4D41-E4CF-28AD-02335955EDCB"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.208"",
+ ""IpPort"": ""49815"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-5836
+	Account Name:		MACHINE-SHOP$
+	Account Domain:		NETELAN
+	Logon ID:		14364429
+	Logon GUID:		1A213C82-4D41-E4CF-28AD-02335955EDCB
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.208
+	Source Port:		49815
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:17Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401071,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-7785"",
+ ""TargetUserName"": ""CONF-PC$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14318667,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-7785
+	Account Name:		CONF-PC$
+	Account Domain:		NETELAN
+	Logon ID:		14318667
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:17Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401070,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6100"",
+ ""TargetUserName"": ""MAUCHAN-S$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14361382,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6100
+	Account Name:		MAUCHAN-S$
+	Account Domain:		NETELAN
+	Logon ID:		14361382
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:17Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401069,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6100"",
+ ""TargetUserName"": ""MAUCHAN-S$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14361382,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""5E58A756-E9B1-7F13-60AE-300FB5648695"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.171"",
+ ""IpPort"": ""49885"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6100
+	Account Name:		MAUCHAN-S$
+	Account Domain:		NETELAN
+	Logon ID:		14361382
+	Logon GUID:		5E58A756-E9B1-7F13-60AE-300FB5648695
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.171
+	Source Port:		49885
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:16Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401068,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TargetUserName"": ""ELECTRA2$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14336209,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14336209
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:15Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4662,944401067,,,"{
+ ""SubjectUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""SubjectUserName"": ""ELECTRA2$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 14360551,
+ ""ObjectServer"": ""DS"",
+ ""ObjectType"": ""%{19195a5b-6da0-11d0-afd3-00c04fd930c9}"",
+ ""ObjectName"": ""%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}"",
+ ""OperationType"": ""Object Access"",
+ ""HandleId"": 0,
+ ""AccessList"": ""%%7688\r\n\t\t\t\t"",
+ ""AccessMask"": 256,
+ ""Properties"": ""%%7688\r\n\t\t{1131f6ab-9c07-11d1-f79f-00c04fc2dcd2}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n"",
+ ""AdditionalInfo"": ""-"",
+ ""AdditionalInfo2"": """"
+}",,"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14360551
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}
+	Handle ID:		0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+
+	Access Mask:		256
+	Properties:		Control Access
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:15Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401066,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TargetUserName"": ""ELECTRA2$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14360551,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""F5B4515E-0215-371D-0074-BB01F4F98384"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.126"",
+ ""IpPort"": ""60564"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14360551
+	Logon GUID:		F5B4515E-0215-371D-0074-BB01F4F98384
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.126
+	Source Port:		60564
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:13Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401065,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6850"",
+ ""TargetUserName"": ""CINELLI-L$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14354642,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""4030A5C5-BA70-87EB-F73A-280D367D00B7"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.168.70.21"",
+ ""IpPort"": ""49852"",
+ ""ImpersonationLevel"": ""%%1840""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6850
+	Account Name:		CINELLI-L$
+	Account Domain:		NETELAN
+	Logon ID:		14354642
+	Logon GUID:		4030A5C5-BA70-87EB-F73A-280D367D00B7
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.70.21
+	Source Port:		49852
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:13Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401064,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-5938"",
+ ""TargetUserName"": ""LOZANO-C1$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14354593,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""1A1B30BB-6736-A36A-B868-696BAE5FDC4E"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.253"",
+ ""IpPort"": ""49853"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-5938
+	Account Name:		LOZANO-C1$
+	Account Domain:		NETELAN
+	Logon ID:		14354593
+	Logon GUID:		1A1B30BB-6736-A36A-B868-696BAE5FDC4E
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.253
+	Source Port:		49853
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:11Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401062,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6834"",
+ ""TargetUserName"": ""VIGNEAU-K$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14353853,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""B27F808B-4154-D802-D592-74FEFACD42A8"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.74"",
+ ""IpPort"": ""63608"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6834
+	Account Name:		VIGNEAU-K$
+	Account Domain:		NETELAN
+	Logon ID:		14353853
+	Logon GUID:		B27F808B-4154-D802-D592-74FEFACD42A8
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.74
+	Source Port:		63608
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:11Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401063,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6834"",
+ ""TargetUserName"": ""VIGNEAU-K$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14353853,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6834
+	Account Name:		VIGNEAU-K$
+	Account Domain:		NETELAN
+	Logon ID:		14353853
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:08Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401061,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TargetUserName"": ""ELECTRA2$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14324579,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14324579
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:03Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401060,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6324"",
+ ""TargetUserName"": ""LACRARU-A1$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14322665,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6324
+	Account Name:		LACRARU-A1$
+	Account Domain:		NETELAN
+	Logon ID:		14322665
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:03Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4672,944401059,,,"{
+ ""SubjectUserSid"": ""S-1-5-18"",
+ ""SubjectUserName"": ""SYSTEM"",
+ ""SubjectDomainName"": ""NT AUTHORITY"",
+ ""SubjectLogonId"": 999,
+ ""PrivilegeList"": ""SeAssignPrimaryTokenPrivilege\r\n\t\t\tSeTcbPrivilege\r\n\t\t\tSeSecurityPrivilege\r\n\t\t\tSeTakeOwnershipPrivilege\r\n\t\t\tSeLoadDriverPrivilege\r\n\t\t\tSeBackupPrivilege\r\n\t\t\tSeRestorePrivilege\r\n\t\t\tSeDebugPrivilege\r\n\t\t\tSeAuditPrivilege\r\n\t\t\tSeSystemEnvironmentPrivilege\r\n\t\t\tSeImpersonatePrivilege""
+}",,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		999
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:03Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401058,,,"{
+ ""SubjectUserSid"": ""S-1-5-18"",
+ ""SubjectUserName"": ""DEMETER$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 999,
+ ""TargetUserSid"": ""S-1-5-18"",
+ ""TargetUserName"": ""SYSTEM"",
+ ""TargetDomainName"": ""NT AUTHORITY"",
+ ""TargetLogonId"": 999,
+ ""LogonType"": 5,
+ ""LogonProcessName"": ""Advapi  "",
+ ""AuthenticationPackageName"": ""Negotiate"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""00000000-0000-0000-0000-000000000000"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 884,
+ ""ProcessName"": ""C:\\Windows\\System32\\services.exe"",
+ ""IpAddress"": ""-"",
+ ""IpPort"": ""-"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DEMETER$
+	Account Domain:		NETELAN
+	Logon ID:		999
+
+Logon Type:			5
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		999
+	Logon GUID:		00000000-0000-0000-0000-000000000000
+
+Process Information:
+	Process ID:		884
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:02Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4672,944401057,,,"{
+ ""SubjectUserSid"": ""S-1-5-18"",
+ ""SubjectUserName"": ""SYSTEM"",
+ ""SubjectDomainName"": ""NT AUTHORITY"",
+ ""SubjectLogonId"": 999,
+ ""PrivilegeList"": ""SeAssignPrimaryTokenPrivilege\r\n\t\t\tSeTcbPrivilege\r\n\t\t\tSeSecurityPrivilege\r\n\t\t\tSeTakeOwnershipPrivilege\r\n\t\t\tSeLoadDriverPrivilege\r\n\t\t\tSeBackupPrivilege\r\n\t\t\tSeRestorePrivilege\r\n\t\t\tSeDebugPrivilege\r\n\t\t\tSeAuditPrivilege\r\n\t\t\tSeSystemEnvironmentPrivilege\r\n\t\t\tSeImpersonatePrivilege""
+}",,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		999
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:02Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401056,,,"{
+ ""SubjectUserSid"": ""S-1-5-18"",
+ ""SubjectUserName"": ""DEMETER$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 999,
+ ""TargetUserSid"": ""S-1-5-18"",
+ ""TargetUserName"": ""SYSTEM"",
+ ""TargetDomainName"": ""NT AUTHORITY"",
+ ""TargetLogonId"": 999,
+ ""LogonType"": 5,
+ ""LogonProcessName"": ""Advapi  "",
+ ""AuthenticationPackageName"": ""Negotiate"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""00000000-0000-0000-0000-000000000000"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 884,
+ ""ProcessName"": ""C:\\Windows\\System32\\services.exe"",
+ ""IpAddress"": ""-"",
+ ""IpPort"": ""-"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DEMETER$
+	Account Domain:		NETELAN
+	Logon ID:		999
+
+Logon Type:			5
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		999
+	Logon GUID:		00000000-0000-0000-0000-000000000000
+
+Process Information:
+	Process ID:		884
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:01Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4662,944401053,,,"{
+ ""SubjectUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""SubjectUserName"": ""ELECTRA2$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 14336209,
+ ""ObjectServer"": ""DS"",
+ ""ObjectType"": ""%{19195a5b-6da0-11d0-afd3-00c04fd930c9}"",
+ ""ObjectName"": ""%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}"",
+ ""OperationType"": ""Object Access"",
+ ""HandleId"": 0,
+ ""AccessList"": ""%%7688\r\n\t\t\t\t"",
+ ""AccessMask"": 256,
+ ""Properties"": ""%%7688\r\n\t\t{1131f6ad-9c07-11d1-f79f-00c04fc2dcd2}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n"",
+ ""AdditionalInfo"": ""-"",
+ ""AdditionalInfo2"": """"
+}",,"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14336209
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}
+	Handle ID:		0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+
+	Access Mask:		256
+	Properties:		Control Access
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:01Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4662,944401052,,,"{
+ ""SubjectUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""SubjectUserName"": ""ELECTRA2$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 14336209,
+ ""ObjectServer"": ""DS"",
+ ""ObjectType"": ""%{19195a5b-6da0-11d0-afd3-00c04fd930c9}"",
+ ""ObjectName"": ""%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}"",
+ ""OperationType"": ""Object Access"",
+ ""HandleId"": 0,
+ ""AccessList"": ""%%7688\r\n\t\t\t\t"",
+ ""AccessMask"": 256,
+ ""Properties"": ""%%7688\r\n\t\t{89e95b76-444d-4c62-991a-0facbeda640c}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n"",
+ ""AdditionalInfo"": ""-"",
+ ""AdditionalInfo2"": """"
+}",,"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14336209
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}
+	Handle ID:		0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+
+	Access Mask:		256
+	Properties:		Control Access
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:01Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4662,944401051,,,"{
+ ""SubjectUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""SubjectUserName"": ""ELECTRA2$"",
+ ""SubjectDomainName"": ""NETELAN"",
+ ""SubjectLogonId"": 14336209,
+ ""ObjectServer"": ""DS"",
+ ""ObjectType"": ""%{19195a5b-6da0-11d0-afd3-00c04fd930c9}"",
+ ""ObjectName"": ""%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}"",
+ ""OperationType"": ""Object Access"",
+ ""HandleId"": 0,
+ ""AccessList"": ""%%7688\r\n\t\t\t\t"",
+ ""AccessMask"": 256,
+ ""Properties"": ""%%7688\r\n\t\t{1131f6aa-9c07-11d1-f79f-00c04fc2dcd2}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n"",
+ ""AdditionalInfo"": ""-"",
+ ""AdditionalInfo2"": """"
+}",,"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14336209
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{4dd034c8-bdcf-4a0a-bf9b-c240176a37c6}
+	Handle ID:		0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+
+	Access Mask:		256
+	Properties:		Control Access
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:01Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4769,944401054,,,"{
+ ""TargetUserName"": ""Administrator@NETE.DND.CA"",
+ ""TargetDomainName"": ""NETE.DND.CA"",
+ ""ServiceName"": ""AUTOCAD-NET-MGR$"",
+ ""ServiceSid"": ""S-1-5-21-41034656-785266014-2013996557-6096"",
+ ""TicketOptions"": 1082195968,
+ ""TicketEncryptionType"": 18,
+ ""IpAddress"": ""::ffff:192.100.100.147"",
+ ""IpPort"": ""50017"",
+ ""Status"": 0,
+ ""LogonGuid"": ""A7088505-8088-33DB-71E4-A7156426CBAC"",
+ ""TransmittedServices"": ""-""
+}",,"A Kerberos service ticket was requested.
+
+Account Information:
+	Account Name:		Administrator@NETE.DND.CA
+	Account Domain:		NETE.DND.CA
+	Logon GUID:		A7088505-8088-33DB-71E4-A7156426CBAC
+
+Service Information:
+	Service Name:		AUTOCAD-NET-MGR$
+	Service ID:		S-1-5-21-41034656-785266014-2013996557-6096
+
+Network Information:
+	Client Address:		::ffff:192.100.100.147
+	Client Port:		50017
+
+Additional Information:
+	Ticket Options:		1082195968
+	Ticket Encryption Type:	18
+	Failure Code:		0
+	Transited Services:	-
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested.
+
+This event can be correlated with Windows logon events by comparing the Logon GUID fields in each event.  The logon event occurs on the machine that was accessed, which is often a different machine than the domain controller which issued the service ticket.
+
+Ticket options, encryption types, and failure codes are defined in RFC 4120.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:01Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4634,944401055,,,"{
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-4726"",
+ ""TargetUserName"": ""GARAGE2A$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14294802,
+ ""LogonType"": 3
+}",,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-4726
+	Account Name:		GARAGE2A$
+	Account Domain:		NETELAN
+	Logon ID:		14294802
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-12T00:00:01Z,DEMETER.nete.dnd.ca,Security,Microsoft-Windows-Security-Auditing,4624,944401050,,,"{
+ ""SubjectUserSid"": ""S-1-0-0"",
+ ""SubjectUserName"": ""-"",
+ ""SubjectDomainName"": ""-"",
+ ""SubjectLogonId"": 0,
+ ""TargetUserSid"": ""S-1-5-21-41034656-785266014-2013996557-6837"",
+ ""TargetUserName"": ""ELECTRA2$"",
+ ""TargetDomainName"": ""NETELAN"",
+ ""TargetLogonId"": 14336209,
+ ""LogonType"": 3,
+ ""LogonProcessName"": ""Kerberos"",
+ ""AuthenticationPackageName"": ""Kerberos"",
+ ""WorkstationName"": ""-"",
+ ""LogonGuid"": ""F5B4515E-0215-371D-0074-BB01F4F98384"",
+ ""TransmittedServices"": ""-"",
+ ""LmPackageName"": ""-"",
+ ""KeyLength"": 0,
+ ""ProcessId"": 0,
+ ""ProcessName"": ""-"",
+ ""IpAddress"": ""192.100.100.126"",
+ ""IpPort"": ""60554"",
+ ""ImpersonationLevel"": ""%%1833""
+}",,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-41034656-785266014-2013996557-6837
+	Account Name:		ELECTRA2$
+	Account Domain:		NETELAN
+	Logon ID:		14336209
+	Logon GUID:		F5B4515E-0215-371D-0074-BB01F4F98384
+
+Process Information:
+	Process ID:		0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.100.100.126
+	Source Port:		60554
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGHT5DAUAAI.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca

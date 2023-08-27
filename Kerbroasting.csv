@@ -1,0 +1,3 @@
+EventTime,EventID,Computer,ServiceName,ServiceSid,TargetUserName,Status,TargetDomainName,TicketEncryptionType,TicketOptions,TransmittedServices,IpAddress,IpPort,FullPath,FlowId,ClientId,Fqdn
+2023-08-15T15:56:12Z,4769,DEMETER.nete.dnd.ca,SQLAdmin,S-1-5-21-41034656-785266014-2013996557-2429,sri_n@NETE.DND.CA,0x0,NETE.DND.CA,0x17,0x40810010,-,::ffff:192.100.100.93," 42548",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGVR1G7PVFM.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca
+2023-08-16T17:29:13Z,4769,DEMETER.nete.dnd.ca,SQLAdmin,S-1-5-21-41034656-785266014-2013996557-2429,sri_n@NETE.DND.CA,0x0,NETE.DND.CA,0x17,0x40810010,-,::ffff:192.100.100.93," 41180",C:\Windows\System32\winevt\Logs\Security.evtx,F.CJEGVR1G7PVFM.H,C.dfdc599655f11af8,DEMETER.nete.dnd.ca

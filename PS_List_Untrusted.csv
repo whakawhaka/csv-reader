@@ -1,0 +1,1615 @@
+Pid,Ppid,TokenIsElevated,Name,CommandLine,Exe,TokenInfo,Hash,Authenticode,Username,WorkingSetSize,FlowId,ClientId,Fqdn
+4128,868,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,21688320,F.CJF43J8QIDK4O.H,C.ea6a16162f67d44f,LACRARU-A1.nete.dnd.ca
+3372,868,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46518272,F.CJF43J8QIDK4O.H,C.ea6a16162f67d44f,LACRARU-A1.nete.dnd.ca
+3696,868,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,48128000,F.CJF43J8QIDK4O.H,C.ea6a16162f67d44f,LACRARU-A1.nete.dnd.ca
+4252,896,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,23506944,F.CJF43J8QIDK4O.H,C.49984d08372872ad,CASTONGUAY-S.nete.dnd.ca
+4936,896,true,WinZip Compression Smart Monitor Service.exe,"""C:\Program Files\WinZip\WinZip Smart Monitor\WinZip Compression Smart Monitor Service.exe""",C:\Program Files\WinZip\WinZip Smart Monitor\WinZip Compression Smart Monitor Service.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""327b7c73a4485a178f0861c492a16f8d"",
+ ""SHA1"": ""95100f06d878c512ec1b0b559b97069304051c85"",
+ ""SHA256"": ""85dffe53dd9cb8643d795982bc3f7dfdc606715c6cd671c8a3f2e4669400c677""
+}","{
+ ""Filename"": ""C:\\Program Files\\WinZip\\WinZip Smart Monitor\\WinZip Compression Smart Monitor Service.exe"",
+ ""ProgramName"": """",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""24a1bd176051ff864d018812f9f2304c"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=CA, ST=Ontario, L=Ottawa, O=Corel Corporation, CN=Corel Corporation"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,80957440,F.CJF43J8QIDK4O.H,C.49984d08372872ad,CASTONGUAY-S.nete.dnd.ca
+14104,896,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46657536,F.CJF43J8QIDK4O.H,C.49984d08372872ad,CASTONGUAY-S.nete.dnd.ca
+8072,896,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,47947776,F.CJF43J8QIDK4O.H,C.49984d08372872ad,CASTONGUAY-S.nete.dnd.ca
+3396,72,true,HeciServer.exe,"""C:\Program Files\Intel\iCLS Client\HeciServer.exe""",C:\Program Files\Intel\iCLS Client\HeciServer.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""c6128f2e3dc6156c6f8828f9f1b96010"",
+ ""SHA1"": ""9dd1f9cec9f2d89f2b3f77b5f18ce012c3898a25"",
+ ""SHA256"": ""612c1191afb8f69ba5634e8c52bdde608f57d98fa4c76c5a337676a5f1e8191d""
+}","{
+ ""Filename"": ""C:\\Program Files\\Intel\\iCLS Client\\HeciServer.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,47501312,F.CJF43J8QIDK4O.H,C.734a3a995484c184,DINCULESCU-C.nete.dnd.ca
+3816,72,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,21553152,F.CJF43J8QIDK4O.H,C.734a3a995484c184,DINCULESCU-C.nete.dnd.ca
+2692,72,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46424064,F.CJF43J8QIDK4O.H,C.734a3a995484c184,DINCULESCU-C.nete.dnd.ca
+6288,72,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,46501888,F.CJF43J8QIDK4O.H,C.734a3a995484c184,DINCULESCU-C.nete.dnd.ca
+8472,968,true,ExpressConnectNetworkService.exe,"""C:\Program Files\ExpressConnect\ExpressConnectNetworkService.exe""",C:\Program Files\ExpressConnect\ExpressConnectNetworkService.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""a90758e0cbfd25a06c1de4616f84a6fb"",
+ ""SHA1"": ""d48e5c525efe2c8d92351f29cca245ec60d36823"",
+ ""SHA256"": ""9aee0d53ac827a01f9a88f41449bbe534e67184b75a92fd6a9da29cebc3650de""
+}","{
+ ""Filename"": ""C:\\Program Files\\ExpressConnect\\ExpressConnectNetworkService.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,68345856,F.CJF43J8QIDK4O.H,C.56a068ea907116b3,GARAGE1A.nete.dnd.ca
+4464,968,true,ExpressConnectService.exe,"""C:\Program Files\ExpressConnect\ExpressConnectService.exe""",C:\Program Files\ExpressConnect\ExpressConnectService.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""ae76f7c8f6b07ce597a65e8a83f9ed38"",
+ ""SHA1"": ""ddbfef2d58e8cf3fe40b3f1e759579a093f71cd4"",
+ ""SHA256"": ""3e0d02d7a49626115268d55cf5e0be182ebeec2b11efcbab78ac5577df516965""
+}","{
+ ""Filename"": ""C:\\Program Files\\ExpressConnect\\ExpressConnectService.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,108253184,F.CJF43J8QIDK4O.H,C.56a068ea907116b3,GARAGE1A.nete.dnd.ca
+2508,4464,true,ExpressConnect.exe,"""ExpressConnect.exe""",C:\Program Files\ExpressConnect\ExpressConnect.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""4504ede312bc5bfad05d09541da2de21"",
+ ""SHA1"": ""cdcc6b24a418f75cae1ed6961823c480570f5708"",
+ ""SHA256"": ""fb6f9cc40cf1e5b43d39f4972b69a03fe049511ae865cf5b245cbcafd75a5d59""
+}","{
+ ""Filename"": ""C:\\Program Files\\ExpressConnect\\ExpressConnect.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,48869376,F.CJF43J8QIDK4O.H,C.56a068ea907116b3,GARAGE1A.nete.dnd.ca
+8516,968,true,ECDBWMService.exe,"""C:\Program Files\ExpressConnect\ECDBWMService.exe""",C:\Program Files\ExpressConnect\ECDBWMService.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""ae76f7c8f6b07ce597a65e8a83f9ed38"",
+ ""SHA1"": ""ddbfef2d58e8cf3fe40b3f1e759579a093f71cd4"",
+ ""SHA256"": ""3e0d02d7a49626115268d55cf5e0be182ebeec2b11efcbab78ac5577df516965""
+}","{
+ ""Filename"": ""C:\\Program Files\\ExpressConnect\\ECDBWMService.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,108294144,F.CJF43J8QIDK4O.H,C.56a068ea907116b3,GARAGE1A.nete.dnd.ca
+1464,8516,true,ECDBWM.exe,"""ECDBWM.exe""",C:\Program Files\ExpressConnect\ECDBWM.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""1d581f9a5a25a3da9e1a4c43806ea879"",
+ ""SHA1"": ""2b6b6ffb800672695ce1e74be2c2dbb87df6a974"",
+ ""SHA256"": ""c82ab3c01d15babb06406016c80f6b6f4257b2f672e74547087f0049dd89d21f""
+}","{
+ ""Filename"": ""C:\\Program Files\\ExpressConnect\\ECDBWM.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,43413504,F.CJF43J8QIDK4O.H,C.56a068ea907116b3,GARAGE1A.nete.dnd.ca
+3924,932,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,21884928,F.CJF43J8QIDK4O.H,C.6d300f447fd427b6,GARAGE2A.nete.dnd.ca
+4060,932,true,HeciServer.exe,"""C:\Program Files\Intel\iCLS Client\HeciServer.exe""",C:\Program Files\Intel\iCLS Client\HeciServer.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""c6128f2e3dc6156c6f8828f9f1b96010"",
+ ""SHA1"": ""9dd1f9cec9f2d89f2b3f77b5f18ce012c3898a25"",
+ ""SHA256"": ""612c1191afb8f69ba5634e8c52bdde608f57d98fa4c76c5a337676a5f1e8191d""
+}","{
+ ""Filename"": ""C:\\Program Files\\Intel\\iCLS Client\\HeciServer.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,47751168,F.CJF43J8QIDK4O.H,C.6d300f447fd427b6,GARAGE2A.nete.dnd.ca
+5184,932,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46542848,F.CJF43J8QIDK4O.H,C.6d300f447fd427b6,GARAGE2A.nete.dnd.ca
+7956,932,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,46551040,F.CJF43J8QIDK4O.H,C.6d300f447fd427b6,GARAGE2A.nete.dnd.ca
+4180,860,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,21770240,F.CJF43J8QIDK4O.H,C.68a25aed48bc541c,PAVLOV-E.nete.dnd.ca
+4552,860,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46559232,F.CJF43J8QIDK4O.H,C.68a25aed48bc541c,PAVLOV-E.nete.dnd.ca
+1492,860,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,46620672,F.CJF43J8QIDK4O.H,C.68a25aed48bc541c,PAVLOV-E.nete.dnd.ca
+4640,968,true,IPROSetMonitor.exe,C:\Windows\system32\IProsetMonitor.exe,C:\Windows\System32\IPROSetMonitor.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""aa9c4c775a72d205ed4adcae1b7d5638"",
+ ""SHA1"": ""261617c3292fd2d1c21bf242c09acbe77706d260"",
+ ""SHA256"": ""d87e520e71299c2e78f8b670f45df55dba37d069719e131c6ffd7680be5d138a""
+}","{
+ ""Filename"": ""C:\\Windows\\System32\\IPROSetMonitor.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,51642368,F.CJF43J8QIDK4O.H,C.e4baca19fe63bad0,LAMARRE-L.nete.dnd.ca
+5060,968,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,22151168,F.CJF43J8QIDK4O.H,C.e4baca19fe63bad0,LAMARRE-L.nete.dnd.ca
+3096,968,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46620672,F.CJF43J8QIDK4O.H,C.e4baca19fe63bad0,LAMARRE-L.nete.dnd.ca
+5436,968,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,48218112,F.CJF43J8QIDK4O.H,C.e4baca19fe63bad0,LAMARRE-L.nete.dnd.ca
+3236,732,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,21794816,F.CJF43J8QIDK4O.H,C.4d456f66ceee5864,CHUNTOV-R.nete.dnd.ca
+2796,732,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46555136,F.CJF43J8QIDK4O.H,C.4d456f66ceee5864,CHUNTOV-R.nete.dnd.ca
+7004,732,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,47845376,F.CJF43J8QIDK4O.H,C.4d456f66ceee5864,CHUNTOV-R.nete.dnd.ca
+3892,852,true,HeciServer.exe,"""C:\Program Files\Intel\iCLS Client\HeciServer.exe""",C:\Program Files\Intel\iCLS Client\HeciServer.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""c6128f2e3dc6156c6f8828f9f1b96010"",
+ ""SHA1"": ""9dd1f9cec9f2d89f2b3f77b5f18ce012c3898a25"",
+ ""SHA256"": ""612c1191afb8f69ba5634e8c52bdde608f57d98fa4c76c5a337676a5f1e8191d""
+}","{
+ ""Filename"": ""C:\\Program Files\\Intel\\iCLS Client\\HeciServer.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,47726592,F.CJF43J8QIDK4O.H,C.afa4d64d71887c91,DEBELLIS-S.nete.dnd.ca
+4064,852,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,21688320,F.CJF43J8QIDK4O.H,C.afa4d64d71887c91,DEBELLIS-S.nete.dnd.ca
+5112,852,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46526464,F.CJF43J8QIDK4O.H,C.afa4d64d71887c91,DEBELLIS-S.nete.dnd.ca
+3040,852,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,48234496,F.CJF43J8QIDK4O.H,C.afa4d64d71887c91,DEBELLIS-S.nete.dnd.ca
+10576,8200,false,Suite.exe,"""C:\Program Files (x86)\CSPMS\Suite.exe"" ",C:\Program Files (x86)\CSPMS\Suite.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-19405242"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-8192""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-7840"",
+ ""Username"": ""NETELAN\\sipos_a"",
+ ""ProfileDir"": ""C:\\Users\\sipos_a"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""09bc68713deefebae491733fb24dacde"",
+ ""SHA1"": ""c63e343754988d96040cc30ffbc1227d7fc3ce03"",
+ ""SHA256"": ""586dbfd769ac9c002dafbcde4f8b84148b6a633a55152911d87b58baf83296ef""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\CSPMS\\Suite.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\sipos_a,188522496,F.CJF43J8QIDK4O.H,C.1dc58e9193dded94,SIPOS-A.nete.dnd.ca
+5276,624,false,Microsoft.Photos.exe,"""C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2023.10030.27002.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe"" -ServerName:App.AppXzst44mncqdg84v7sv6p7yznqwssy6f7f.mca",C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2023.10030.27002.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-19405242"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-4096""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-7840"",
+ ""Username"": ""NETELAN\\sipos_a"",
+ ""ProfileDir"": ""C:\\Users\\sipos_a"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""6457b7560c9e800cd6360148b598fe02"",
+ ""SHA1"": ""a5668f2b8d052fdd21ba0b505307538f0a9ac9ee"",
+ ""SHA256"": ""c567a42dbe50234f7615d0dac31fcadbe70522e7b01be57b93f186993856fc01""
+}","{
+ ""Filename"": ""C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2023.10030.27002.0_x64__8wekyb3d8bbwe\\Microsoft.Photos.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\sipos_a,350044160,F.CJF43J8QIDK4O.H,C.1dc58e9193dded94,SIPOS-A.nete.dnd.ca
+4492,13952,false,Suite.exe,"""C:\Program Files (x86)\CSPMS\Suite.exe"" ",C:\Program Files (x86)\CSPMS\Suite.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-545"",
+  ""S-1-5-4"",
+  ""S-1-2-1"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-58015466"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-6271"",
+  ""S-1-5-21-41034656-785266014-2013996557-6793"",
+  ""S-1-5-21-41034656-785266014-2013996557-5813"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-4364"",
+  ""S-1-18-1"",
+  ""S-1-5-21-41034656-785266014-2013996557-5353"",
+  ""S-1-16-8192""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-6421"",
+ ""Username"": ""NETELAN\\raby_m"",
+ ""ProfileDir"": ""C:\\Users\\raby_m"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""09bc68713deefebae491733fb24dacde"",
+ ""SHA1"": ""c63e343754988d96040cc30ffbc1227d7fc3ce03"",
+ ""SHA256"": ""586dbfd769ac9c002dafbcde4f8b84148b6a633a55152911d87b58baf83296ef""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\CSPMS\\Suite.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\raby_m,175620096,F.CJF43J8QIDK4O.H,C.0046d59a821a41d6,RABY-M1.nete.dnd.ca
+15116,1000,false,Calculator.exe,"""C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe\Calculator.exe"" -ServerName:App.AppXsm3pg4n7er43kdh1qp4e79f1j7am68r8.mca",C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe\Calculator.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-545"",
+  ""S-1-5-4"",
+  ""S-1-2-1"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-58015466"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-6271"",
+  ""S-1-5-21-41034656-785266014-2013996557-6793"",
+  ""S-1-5-21-41034656-785266014-2013996557-5813"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-4364"",
+  ""S-1-18-1"",
+  ""S-1-5-21-41034656-785266014-2013996557-5353"",
+  ""S-1-16-4096""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-6421"",
+ ""Username"": ""NETELAN\\raby_m"",
+ ""ProfileDir"": ""C:\\Users\\raby_m"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""0426a299dcd9107e435299bfa1f53a58"",
+ ""SHA1"": ""ff1ce0eb6007e6bc2eb9d563b2daa8c4d8f45e87"",
+ ""SHA256"": ""1be51b1664853acca05b402fbb441456d0a6fa57d70baed476434cf8f686e15f""
+}","{
+ ""Filename"": ""C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe\\Calculator.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\raby_m,213880832,F.CJF43J8QIDK4O.H,C.0046d59a821a41d6,RABY-M1.nete.dnd.ca
+12992,1000,false,Microsoft.Photos.exe,"""C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30100.19004.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe"" -ServerName:App.AppXzst44mncqdg84v7sv6p7yznqwssy6f7f.mca",C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30100.19004.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-545"",
+  ""S-1-5-4"",
+  ""S-1-2-1"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-58015466"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-6271"",
+  ""S-1-5-21-41034656-785266014-2013996557-6793"",
+  ""S-1-5-21-41034656-785266014-2013996557-5813"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-4364"",
+  ""S-1-18-1"",
+  ""S-1-5-21-41034656-785266014-2013996557-5353"",
+  ""S-1-16-4096""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-6421"",
+ ""Username"": ""NETELAN\\raby_m"",
+ ""ProfileDir"": ""C:\\Users\\raby_m"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""1fa02c3b2c70bcb55fb819c986be243b"",
+ ""SHA1"": ""c97f4205fffcee0c7c57f80a491021c5c558e72c"",
+ ""SHA256"": ""88bfb036096d65b93cf95df7a13d745d716ca203da9a791b79e90069f602225a""
+}","{
+ ""Filename"": ""C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2022.30100.19004.0_x64__8wekyb3d8bbwe\\Microsoft.Photos.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\raby_m,388886528,F.CJF43J8QIDK4O.H,C.0046d59a821a41d6,RABY-M1.nete.dnd.ca
+16076,1000,false,Video.UI.exe,"""C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10031.0_x64__8wekyb3d8bbwe\Video.UI.exe"" -ServerName:Microsoft.ZuneVideo.AppX758ya5sqdjd98rx6z7g95nw6jy7bqx9y.mca",C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10031.0_x64__8wekyb3d8bbwe\Video.UI.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-545"",
+  ""S-1-5-4"",
+  ""S-1-2-1"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-58015466"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-6271"",
+  ""S-1-5-21-41034656-785266014-2013996557-6793"",
+  ""S-1-5-21-41034656-785266014-2013996557-5813"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-4364"",
+  ""S-1-18-1"",
+  ""S-1-5-21-41034656-785266014-2013996557-5353"",
+  ""S-1-16-4096""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-6421"",
+ ""Username"": ""NETELAN\\raby_m"",
+ ""ProfileDir"": ""C:\\Users\\raby_m"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""a3bc40670b7dbd5fec98c1059f86c588"",
+ ""SHA1"": ""c885b06c21e6883d9290dd627ff679d6ec676849"",
+ ""SHA256"": ""cb90ea53576ec02c041edd9ff7e02becc06988a5c7fa53bf17c9d90e74b1e023""
+}","{
+ ""Filename"": ""C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.22091.10031.0_x64__8wekyb3d8bbwe\\Video.UI.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\raby_m,31969280,F.CJF43J8QIDK4O.H,C.0046d59a821a41d6,RABY-M1.nete.dnd.ca
+2440,772,true,DSM_BMU_SOLProxy32.exe,"""C:\Program Files (x86)\Dell\SysMgt\bmc\DSM_BMU_SOLProxy32.exe"" -cfg ""C:\Program Files (x86)\Dell\SysMgt\bmc\solproxy.cfg"" -daemon -s",C:\Program Files (x86)\Dell\SysMgt\bmc\DSM_BMU_SOLProxy32.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\Windows\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""4ebd9e8b3af19ed36d4f3cc0a0b6f71b"",
+ ""SHA1"": ""25d299aba02a062a7e2a862cb9f1187fb8a4df18"",
+ ""SHA256"": ""09b47dc14e0834c5ccc9bf73baba132032bf09899c591ba0821b4ccfb061b7e3""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\SysMgt\\bmc\\DSM_BMU_SOLProxy32.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,42258432,F.CJF43J8QIDK4O.H,C.ce1299c81873a63f,TITAN.nete.dnd.ca
+4128,924,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,22065152,F.CJF43J8QIDK4O.H,C.496f197f04484d8e,ABADI-PEREZ-J1.nete.dnd.ca
+9132,924,true,KSchedulerSvc.exe,"""C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe""",C:\Program Files (x86)\Dell\KACE\KSchedulerSvc.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""9f040764ae69595166b04226760ff822"",
+ ""SHA1"": ""859089d9bf10b5782da3708c1d33ac58124c4a47"",
+ ""SHA256"": ""11a269a64191b31f9080c55e4e61f9ea86c891e2883001784318e4a7e160c4ab""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\KSchedulerSvc.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,46624768,F.CJF43J8QIDK4O.H,C.496f197f04484d8e,ABADI-PEREZ-J1.nete.dnd.ca
+568,924,true,konea.exe,"""C:\Program Files (x86)\Dell\KACE\konea.exe""",C:\Program Files (x86)\Dell\KACE\konea.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""d0dde4bcf0fc42cb7bbb416fd4e1bfb3"",
+ ""SHA1"": ""297f515b6189d5af55da0b2fee2721f2a85b0189"",
+ ""SHA256"": ""0e2c7a0f2eddb91cff0658b8a96764431f4ef179702c24353198ec141f1414ee""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\konea.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NT AUTHORITY\SYSTEM,47935488,F.CJF43J8QIDK4O.H,C.496f197f04484d8e,ABADI-PEREZ-J1.nete.dnd.ca
+15020,11736,false,Suite.exe,"""C:\Program Files (x86)\CSPMS\Suite.exe"" ",C:\Program Files (x86)\CSPMS\Suite.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-2402036"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-5830"",
+  ""S-1-5-21-41034656-785266014-2013996557-6794"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-8192""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-5919"",
+ ""Username"": ""NETELAN\\bruyere_m"",
+ ""ProfileDir"": ""C:\\Users\\BRUYERE_M"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""09bc68713deefebae491733fb24dacde"",
+ ""SHA1"": ""c63e343754988d96040cc30ffbc1227d7fc3ce03"",
+ ""SHA256"": ""586dbfd769ac9c002dafbcde4f8b84148b6a633a55152911d87b58baf83296ef""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\CSPMS\\Suite.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\bruyere_m,132046848,F.CJF43J8QIDK4O.H,C.e5a2add65d032c01,BRUYERE-M1.nete.dnd.ca
+12524,11736,false,TaskManagement.exe,"""C:\Program Files (x86)\CSPMS\TaskManagement.exe"" ",C:\Program Files (x86)\CSPMS\TaskManagement.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-2402036"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-5830"",
+  ""S-1-5-21-41034656-785266014-2013996557-6794"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-8192""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-5919"",
+ ""Username"": ""NETELAN\\bruyere_m"",
+ ""ProfileDir"": ""C:\\Users\\BRUYERE_M"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""d5383db165268f31f38f44d18056bd00"",
+ ""SHA1"": ""bdd0b277aafbecab7228e7a1012b734a01df8a86"",
+ ""SHA256"": ""ea22d66fed175ba43739de7e813dfa2ac07a794f76d0404bbe1aba7539182122""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\CSPMS\\TaskManagement.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\bruyere_m,236019712,F.CJF43J8QIDK4O.H,C.e5a2add65d032c01,BRUYERE-M1.nete.dnd.ca
+14932,11736,false,Timesheet.exe,"""C:\Program Files (x86)\CSPMS\Timesheet.exe"" ",C:\Program Files (x86)\CSPMS\Timesheet.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-2402036"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-5830"",
+  ""S-1-5-21-41034656-785266014-2013996557-6794"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-8192""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-5919"",
+ ""Username"": ""NETELAN\\bruyere_m"",
+ ""ProfileDir"": ""C:\\Users\\BRUYERE_M"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""07212dcefc82e4c5563e2d8536afe94b"",
+ ""SHA1"": ""6c434f058f9127fdd3df04b267a5f17a4a37c32c"",
+ ""SHA256"": ""fc4508d2e609584577dafc11fe2418cdf3956bc00f43d0b063d7e6e9411b2479""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\CSPMS\\Timesheet.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\bruyere_m,153903104,F.CJF43J8QIDK4O.H,C.e5a2add65d032c01,BRUYERE-M1.nete.dnd.ca
+8548,560,false,Video.UI.exe,"""C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe\Video.UI.exe"" -ServerName:Microsoft.ZuneVideo.AppX758ya5sqdjd98rx6z7g95nw6jy7bqx9y.mca",C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe\Video.UI.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-2402036"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-5830"",
+  ""S-1-5-21-41034656-785266014-2013996557-6794"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-4096""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-5919"",
+ ""Username"": ""NETELAN\\bruyere_m"",
+ ""ProfileDir"": ""C:\\Users\\BRUYERE_M"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""1bedf5ea30fbe8ae976267feb6734128"",
+ ""SHA1"": ""89e24ab3c329472c64691babb12470f1257f39dd"",
+ ""SHA256"": ""5e4b646365a3722086ca46f1a19dd5b676bf498fb60933ca532f0b02552fdb21""
+}","{
+ ""Filename"": ""C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe\\Video.UI.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\bruyere_m,278155264,F.CJF43J8QIDK4O.H,C.e5a2add65d032c01,BRUYERE-M1.nete.dnd.ca
+12336,560,false,Microsoft.Photos.exe,"""C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30060.30007.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe"" -ServerName:App.AppXzst44mncqdg84v7sv6p7yznqwssy6f7f.mca",C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30060.30007.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe,"{
+ ""IsElevated"": false,
+ ""Groups"": [
+  ""S-1-5-21-41034656-785266014-2013996557-513"",
+  ""S-1-1-0"",
+  ""S-1-5-32-555"",
+  ""S-1-5-32-545"",
+  ""S-1-5-14"",
+  ""S-1-5-4"",
+  ""S-1-5-11"",
+  ""S-1-5-15"",
+  ""S-1-5-5-0-2402036"",
+  ""S-1-2-0"",
+  ""S-1-5-21-41034656-785266014-2013996557-4334"",
+  ""S-1-5-21-41034656-785266014-2013996557-5830"",
+  ""S-1-5-21-41034656-785266014-2013996557-6794"",
+  ""S-1-5-21-41034656-785266014-2013996557-6833"",
+  ""S-1-5-21-41034656-785266014-2013996557-6123"",
+  ""S-1-5-21-41034656-785266014-2013996557-1019"",
+  ""S-1-18-1"",
+  ""S-1-16-4096""
+ ],
+ ""SID"": ""S-1-5-21-41034656-785266014-2013996557-5919"",
+ ""Username"": ""NETELAN\\bruyere_m"",
+ ""ProfileDir"": ""C:\\Users\\BRUYERE_M"",
+ ""PrimaryGroup"": ""S-1-5-21-41034656-785266014-2013996557-513""
+}","{
+ ""MD5"": ""aa8e146a18e2263598eb97cb2cae9215"",
+ ""SHA1"": ""62ee31904714f8f9627e7bbebe6dc084f975807f"",
+ ""SHA256"": ""17a8bb25fa9ea85ffa0503b98550bb9734e057f01154a9f52fd02445d52ff277""
+}","{
+ ""Filename"": ""C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2022.30060.30007.0_x64__8wekyb3d8bbwe\\Microsoft.Photos.exe"",
+ ""ProgramName"": null,
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": null,
+ ""SerialNumber"": null,
+ ""IssuerName"": null,
+ ""SubjectName"": null,
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted"",
+ ""_ExtraInfo"": {
+  ""Catalog"": """"
+ }
+}",NETELAN\bruyere_m,193392640,F.CJF43J8QIDK4O.H,C.e5a2add65d032c01,BRUYERE-M1.nete.dnd.ca
+3484,656,true,AMPWatchDog.exe,"""C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe""",C:\Program Files (x86)\Dell\KACE\AMPWatchDog.exe,"{
+ ""IsElevated"": true,
+ ""Groups"": [
+  ""S-1-5-32-544"",
+  ""S-1-1-0"",
+  ""S-1-5-11"",
+  ""S-1-16-16384""
+ ],
+ ""SID"": ""S-1-5-18"",
+ ""Username"": ""NT AUTHORITY\\SYSTEM"",
+ ""ProfileDir"": ""C:\\WINDOWS\\system32\\config\\systemprofile"",
+ ""PrimaryGroup"": ""S-1-5-18""
+}","{
+ ""MD5"": ""3feb17e276942bf8dcaf2482716028c0"",
+ ""SHA1"": ""c5ff6d107287163c64dd0447c9ef9527953ad642"",
+ ""SHA256"": ""7c38a470b4837a28317e409a98a691f1afb279940213c136d072810bf808b9bb""
+}","{
+ ""Filename"": ""C:\\Program Files (x86)\\Dell\\KACE\\AMPWatchDog.exe"",
+ ""ProgramName"": ""Quest KACE Agent Installer"",
+ ""PublisherLink"": null,
+ ""MoreInfoLink"": """",
+ ""SerialNumber"": ""505cce2283a9feb25686039a8c4e00ed"",
+ ""IssuerName"": ""C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 SHA256 Code Signing CA"",
+ ""SubjectName"": ""C=US, ST=California, L=Aliso Viejo, O=Quest Software Inc, OU=IT, CN=Quest Software Inc"",
+ ""Timestamp"": null,
+ ""Trusted"": ""untrusted (A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.)"",
+ ""_ExtraInfo"": null
+}",NT AUTHORITY\SYSTEM,23412736,F.CJF43J8QIDK4O.H,C.1669dd98c9448346,SHOP-MTG-RM1.nete.dnd.ca
